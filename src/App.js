@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
-import { robots}  from './robots';
+import { robots }  from './robots';
 
 
 
@@ -15,7 +15,7 @@ class App extends Component {
     };
 
     onSearchChange(event){
-        console.log(event)
+        console.log(event);
     };
 
         render() {
